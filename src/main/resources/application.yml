@@ -40,32 +40,3 @@ pagehelper:
   params: count=countSql
 
 
-
-#spring:
-#  #配置数据库 #dbcp2:
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-##    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
-##    username: root
-##    password: 123456
-#    url: jdbc:mysql://192.168.60.102:3306/mogoroomdb?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;allowMultiQueries=true
-#    username: 65EE4BAF2B5B92F2165D451A63A2C187
-#    password: D9DB3A6F98E76A186312EF44B47DE79A
-#    type: org.apache.commons.dbcp2.BasicDataSource
-#
-##配置mybatis mapper.xml扫描路径
-#mybatis:
-#  mapper-locations: classpath*:com/hm/*/service/dao/impl/mapper/*.xml
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-#
-##mybatis-pagehelper分页插件
-#pagehelper:
-#  helperDialect: mysql
-#  reasonable: true
-#  supportMethodsArguments: true
-#  params: count=countSql
-#
-#
-#server:
-#  port: 33087

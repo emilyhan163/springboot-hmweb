@@ -17,6 +17,8 @@ spring:
   datasource:
     driverClass: com.mysql.jdbc.Driver
     #url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8
+    #url后拼接&useAffectedRows=true  这个加了之后，update的时候如果没有修改字段则返回0，如果不加这个则不管是否更新到数据都返回1
+    #即后面这个 url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useAffectedRows=true
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: 123456

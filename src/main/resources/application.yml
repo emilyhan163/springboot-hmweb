@@ -31,6 +31,8 @@ mybatis:
   mapper-locations: classpath*:com/hm/*/service/dao/impl/mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #对应mapper的实体类
+    #type-aliases-package: com.hm.*.service.dto
 
 #mybatis-pagehelper分页插件
 pagehelper:

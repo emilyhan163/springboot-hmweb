@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author 韩美娟
+ * @author hmj
  * @date 2019/7/2
  */
 public class UserInfoServiceDTO implements Serializable {
